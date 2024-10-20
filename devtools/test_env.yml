@@ -28,6 +28,7 @@ dependencies:
   - beautifulsoup4
   - chembl_webresource_client
   - pypdb
+  - cctbx202008::biopython
   - biopandas
   - rdkit
   - openbabel
@@ -65,7 +66,6 @@ dependencies:
   - sphinx-gallery
   - autodocsumm
   - pip:
-      - biopython<=1.77
       - black-nb
       - nbsphinx-link
       - sphinxext-opengraph
