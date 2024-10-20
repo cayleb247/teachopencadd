@@ -47,7 +47,7 @@ dependencies:
   - pdbfixer
   - tqdm
   - lxml
-  - kissim
+  # - kissim
   ## CI tests
   - pytest
   - pytest-xdist
