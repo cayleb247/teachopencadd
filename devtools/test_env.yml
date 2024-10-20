@@ -19,7 +19,7 @@ dependencies:
   # API changed after v2.6, see https://github.com/volkamerlab/teachopencadd/issues/265
   - tensorflow<=2.6
   - seaborn
-  - matplotlib-venn
+  - matplotlib-venn6
   - bravado
   - requests
   - requests-cache
@@ -28,7 +28,6 @@ dependencies:
   - beautifulsoup4
   - chembl_webresource_client
   - pypdb
-  - biopython<=1.77
   - biopandas
   - rdkit
   - openbabel
@@ -66,6 +65,7 @@ dependencies:
   - sphinx-gallery
   - autodocsumm
   - pip:
+      - biopython<=1.77
       - black-nb
       - nbsphinx-link
       - sphinxext-opengraph
