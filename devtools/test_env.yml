@@ -28,7 +28,7 @@ dependencies:
   - beautifulsoup4
   - chembl_webresource_client
   - pypdb
-  - cctbx202008::biopython
+  - biopython
   - biopandas
   - rdkit
   - openbabel
