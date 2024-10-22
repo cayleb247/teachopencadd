@@ -14,7 +14,7 @@ dependencies:
   - jupyter_client<=7.4.9
   # New numpy version 1.2.4 too young, e.g. caused
   # https://github.com/volkamerlab/teachopencadd/issues/299
-  - numpy==1.22.4
+  - numpy>=1.22.4
   - scikit-learn
   # API changed after v2.6, see https://github.com/volkamerlab/teachopencadd/issues/265
   - tensorflow<=2.6
