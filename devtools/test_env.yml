@@ -71,4 +71,4 @@ dependencies:
       - sphinxext-opengraph
       - deepchem
       # TeachOpenCADD itself
-      - ../
+      # - ../
